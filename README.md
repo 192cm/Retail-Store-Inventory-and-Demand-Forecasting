@@ -8,7 +8,7 @@
 ## 🎯 목표 (Objectives)
 * **중·단기 수요 예측**: 향후 **30일(Short-to-Mid term)** 간의 일별 판매량을 시계열적으로 예측하여 재고 운영 계획 지원
 * **예측 성능 확보**: MAPE(오차율) 10% 수준 달성 및 RMSE 기준 Baseline(단순 이동평균) 대비 **15% 이상 성능 개선**
-* **불확실성 관리**: **Quantile Regression(분위수 회귀)**을 통해 95% 신뢰 구간을 제공하여 과학적인 안전 재고(Safety Stock) 산정 근거 마련
+* **불확실성 관리**: Quantile Regression(분위수 회귀)을 통해 95% 신뢰 구간을 제공하여 과학적인 안전 재고(Safety Stock) 산정 근거 마련
 
 ## 🛠️ 기술 스택 (Tech Stack)
 * **Language**: Python 3.9+
