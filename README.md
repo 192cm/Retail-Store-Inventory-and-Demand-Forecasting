@@ -1,9 +1,9 @@
 # 🛒 Retail Demand Forecasting & Inventory Optimization
 
 ## 📖 프로젝트 개요 (Project Overview)
-이 프로젝트는 소매 기업의 2년 치 과거 판매 데이터와 프로모션, 날씨, 경쟁사 가격 등 다양한 내·외부 요인을 분석하여 **미래 30일간의 수요를 예측(Demand Forecasting)**하는 프로젝트입니다.
+이 프로젝트는 소매 기업의 2년 치 과거 판매 데이터와 프로모션, 날씨, 경쟁사 가격 등 다양한 내·외부 요인을 분석하여 미래 30일간의 수요를 예측(Demand Forecasting)하는 프로젝트입니다.
 
-단순한 판매량 추정이 아닌, 시계열 데이터의 장기 의존성과 복합적인 상호작용을 학습할 수 있는 **Temporal Fusion Transformer(TFT)** 모델을 도입했습니다. 이를 통해 단순한 점 예측(Point Prediction)이 아닌 **구간 예측(Quantile Prediction)**을 수행하여 수요의 불확실성을 정량화하고, 재고 최적화를 통한 비즈니스 비용 절감을 목표로 했습니다.
+단순한 판매량 추정이 아닌, 시계열 데이터의 장기 의존성과 복합적인 상호작용을 학습할 수 있는 **Temporal Fusion Transformer(TFT)** 모델을 도입했습니다. 이를 통해 단순한 점 예측(Point Prediction)이 아닌 구간 예측(Quantile Prediction)을 수행하여 수요의 불확실성을 정량화하고, 재고 최적화를 통한 비즈니스 비용 절감을 목표로 했습니다.
 
 ## 🎯 목표 (Objectives)
 * **중·단기 수요 예측**: 향후 **30일(Short-to-Mid term)** 간의 일별 판매량을 시계열적으로 예측하여 재고 운영 계획 지원
